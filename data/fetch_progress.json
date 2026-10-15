@@ -1,0 +1,14 @@
+{
+  "updated_at": "2026-06-28T14:09:40",
+  "processed": 5191,
+  "total": 5191,
+  "success": 11,
+  "skipped": 0,
+  "failed": 5180,
+  "new_rows": 4380,
+  "current_stock_code": "",
+  "current_stock_name": "",
+  "current_reason": "finished",
+  "output_rows": 2939974,
+  "output_stock_count": 5200
+}

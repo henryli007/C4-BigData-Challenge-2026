@@ -1,0 +1,52 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# OS files
+.DS_Store
+.vscode
+.idea
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Logs
+logs/
+*.log
+
+# Sensitive config (contains API tokens)
+.env.tushare
+.env
+
+# Large data files (>50MB) - excluded to fit GitHub limits
+# Keep small reference CSVs, exclude the big ones
+data/stock_data.csv
+data/hybrid_stock_data.csv
+data_backtest/hybrid_cutoff_20260424.csv
+data_backtest/hybrid_cutoff_20260529.csv
+data_submit_long/stock_data.csv
+
+# Model weights and checkpoints (large binary files)
+model/
+*.pth
+*.pkl
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+
+# Temporary files
+temp/
+*.tmp
